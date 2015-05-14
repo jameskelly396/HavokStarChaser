@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="CGameObject">
+      <UniqueIdentifier>{8eaec019-b1e3-4d91-a465-8ed4b18ffaef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{4a695244-233e-4fef-bff0-481f0c387941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCommand">
+      <UniqueIdentifier>{68accc8a-d67b-4208-a1d0-f9dce0d10284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{957a0b5c-8266-4cf8-a6fc-265eb68af9d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPly">
+      <UniqueIdentifier>{baf20193-6799-49b5-8204-d3511330eb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CModelLoaderManager">
+      <UniqueIdentifier>{f87d65a9-f321-4d08-8ba1-ecc344f0b288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader or Render">
+      <UniqueIdentifier>{c37aa6b4-dc4a-4438-87f8-cd5d730c4132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCamera">
+      <UniqueIdentifier>{c55edc6a-a300-441f-b30c-2894d6a358c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CParticleEmitter">
+      <UniqueIdentifier>{fea981a8-5c8e-4cf2-ba54-741c3b139d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CTexture">
+      <UniqueIdentifier>{9f8e800e-acc4-4d58-b5a4-a02502fbf62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mouse">
+      <UniqueIdentifier>{07116ee9-fe6b-4e93-83f9-db42ea87df51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPhysics">
+      <UniqueIdentifier>{a0c0515f-7018-4318-bf27-bb576b906959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CGameController">
+      <UniqueIdentifier>{b71be5cc-0568-4c5b-968e-d052fa517af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCommonTypes">
+      <UniqueIdentifier>{d68248ee-798e-48eb-b8a6-4a648c08ee83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLightManager">
+      <UniqueIdentifier>{0a732673-75a2-4659-9769-22a4c2e218cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLUT callbacks">
+      <UniqueIdentifier>{090219e4-60c9-4ab6-a6bb-9b2b31c7c78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CHavokPhysics">
+      <UniqueIdentifier>{4e89bbd2-df38-4ecd-800e-e08c95ac9d1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CFactoryMediator.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="CNameValuePair.cpp">
+      <Filter>CCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CMessage.cpp">
+      <Filter>CCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelLoaderManager.cpp">
+      <Filter>CModelLoaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL_Initialize.cpp">
+      <Filter>Shader or Render</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexTypes.cpp">
+      <Filter>Shader or Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils_NO_LONGER_NEEDED.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printTheWhatsThisProgramAboutBlurb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUniformVariables.cpp">
+      <Filter>Shader or Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleEmitter.cpp">
+      <Filter>CParticleEmitter</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture\C24BitBMPpixel.cpp">
+      <Filter>CTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture\CTextureFromBMP.cpp">
+      <Filter>CTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture\lodepng.cpp">
+      <Filter>CTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera_Quaternions_OLD.cpp">
+      <Filter>CCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>CCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="CMouseState.cpp">
+      <Filter>Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhysics\Physics.cpp">
+      <Filter>CPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommonTypes\CQuaternion.cpp">
+      <Filter>CCommonTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommonTypes\CVector3f.cpp">
+      <Filter>CCommonTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommonTypes\MatrixMath.cpp">
+      <Filter>CCommonTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="CPly\CPlyFile5nt.cpp">
+      <Filter>CPly</Filter>
+    </ClCompile>
+    <ClCompile Include="CPly\CPlyFile5nt_experimental.cpp">
+      <Filter>CPly</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommonTypes\CHRTimer.cpp">
+      <Filter>CCommonTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjects\CGameObject.cpp">
+      <Filter>CGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhysics\CPhysicsCalculatron.cpp">
+      <Filter>CPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhysics\CPhysicalProp.cpp">
+      <Filter>CPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender\CMeshDesc.cpp">
+      <Filter>Shader or Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender\CLight.cpp">
+      <Filter>CLightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender\CLightManager.cpp">
+      <Filter>CLightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_mouse_Callbacks.cpp">
+      <Filter>GLUT callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="glutClose_callback.cpp">
+      <Filter>GLUT callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="glutDisplay_callback.cpp">
+      <Filter>GLUT callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="glutIdle_callback.cpp">
+      <Filter>GLUT callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="glutKeyboardSpecial_callbacks.cpp">
+      <Filter>GLUT callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="glutReshape_callback.cpp">
+      <Filter>GLUT callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender\ShaderTypes.cpp">
+      <Filter>Shader or Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender\CGLShaderManager.cpp">
+      <Filter>Shader or Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender\CGLShaderManager_SHADER_VARIABLES.cpp">
+      <Filter>Shader or Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjects\CViperBrain.cpp">
+      <Filter>CGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture\CTextureManager.cpp">
+      <Filter>CTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="CTriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triangleAABB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameController\CGameControllerManager.cpp">
+      <Filter>CGameController</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameController\CGameControllerManager_Imp.cpp">
+      <Filter>CGameController</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameController\CXBoxController.cpp">
+      <Filter>CGameController</Filter>
+    </ClCompile>
+    <ClCompile Include="CHavokPhysics\CPhysicsManagerFactory.cpp">
+      <Filter>CHavokPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="CHavokPhysics\CHavokPhysics.cpp">
+      <Filter>CHavokPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="cMeshGenerator_PCN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QnDPly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMediator.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="CFactoryMediator.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="CNameValuePair.h">
+      <Filter>CCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CMessage.h">
+      <Filter>CCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelLoaderManager.h">
+      <Filter>CModelLoaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h">
+      <Filter>Shader or Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils_NO_LONGER_NEEDED.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUniformVariables.h">
+      <Filter>Shader or Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleEmitter.h">
+      <Filter>CParticleEmitter</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture\C24BitBMPpixel.h">
+      <Filter>CTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture\CTextureFromBMP.h">
+      <Filter>CTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture\lodepng.h">
+      <Filter>CTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera_Quaternions_OLD.h">
+      <Filter>CCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>CCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="CMouseState.h">
+      <Filter>Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture\CTextureManager.h">
+      <Filter>CTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhysics\CPhysicalProp.h">
+      <Filter>CPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhysics\Physics.h">
+      <Filter>CPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonTypes\CQuaternion.h">
+      <Filter>CCommonTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonTypes\CVector3f.h">
+      <Filter>CCommonTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonTypes\CVector4f.h">
+      <Filter>CCommonTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonTypes\MatrixMath.h">
+      <Filter>CCommonTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CPly\CPlyFile5nt.h">
+      <Filter>CPly</Filter>
+    </ClInclude>
+    <ClInclude Include="CPly\CPlyInfo.h">
+      <Filter>CPly</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonTypes\CHRTimer.h">
+      <Filter>CCommonTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonTypes\CMathHelper.h">
+      <Filter>CCommonTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjects\CGameObject.h">
+      <Filter>CGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender\CMeshDesc.h">
+      <Filter>Shader or Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhysics\CPhysicsCalculatron.h">
+      <Filter>CPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjects\IGameObjectPhysics.h">
+      <Filter>CGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjects\IGameObjectRender.h">
+      <Filter>CGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender\CLight.h">
+      <Filter>CLightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender\CLightManager.h">
+      <Filter>CLightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender\IGLShaderManager.h">
+      <Filter>Shader or Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender\ShaderTypes.h">
+      <Filter>Shader or Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender\CGLShaderManager.h">
+      <Filter>Shader or Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjects\CViperBrain.h">
+      <Filter>CGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjects\IBrain.h">
+      <Filter>CGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CAABB.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTriangle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameController\CGameControllerManager.h">
+      <Filter>CGameController</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameController\CGameControllerManager_Imp.h">
+      <Filter>CGameController</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameController\CXBoxController.h">
+      <Filter>CGameController</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameController\IGameController.h">
+      <Filter>CGameController</Filter>
+    </ClInclude>
+    <ClInclude Include="CHavokPhysics\IPhysics.h">
+      <Filter>CHavokPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="CHavokPhysics\CPhysicsManagerFactory.h">
+      <Filter>CHavokPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="CHavokPhysics\CHavokPhysics.h">
+      <Filter>CHavokPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshGenerator_PCN.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsMailMan.h">
+      <Filter>CHavokPhysics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="whats_this.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\OpenGL.LightTexSkyUber.fragment_texture - Copy.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\OpenGL.LightTexSkyUber.fragment_texture.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\OpenGL.LightTexSkyUber.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\W12.Uber.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\W12.Uber.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

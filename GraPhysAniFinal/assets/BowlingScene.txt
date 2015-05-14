@@ -1,0 +1,178 @@
+<Model>
+	<Type> Skybox </Type>
+	<PlyFile> Isoshphere_xyz_nxyz.ply </PlyFile>
+	<SkyboxTexture>
+		<Name> Skybox </Name>
+		<Texture> BluePurpleSpaceBox_right1.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_left2.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_top3.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_bottom4.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_front5.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_back6.bmp </Texture>
+	</SkyboxTexture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1000.0 </Scale>
+	<Position> 0.0 0.0 0.0 </Position>
+	<Colour> 0.75 0.5 0.3 </Colour>
+	<IsSkybox> True </IsSkybox>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 0.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 1.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 2.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 3.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 4.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 5.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 6.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 7.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 8.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> 9.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_2Tri_Quad_2_Sided.ply </PlyFile>
+	<Texture> JetBlue.bmp </Texture>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> GroundFloor </Type>
+	<PlyFile> floor.ply </PlyFile>
+	<Texture> BIG_rocher.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 100.0 </Scale>
+	<Position> -50.0 0.0 -50.0 </Position>
+	<IsPlayer> True </IsPlayer>
+</Model>
+<Model>
+	<Type> GroundFloor </Type>
+	<PlyFile> floor.ply </PlyFile>
+	<Texture> BIG_rocher.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 100.0 </Scale>
+	<Position> -50.0 0.0 50.0 </Position>
+	<IsPlayer> True </IsPlayer>
+</Model>
+<Model>
+	<Type> IceFloor </Type>
+	<PlyFile> floor.ply </PlyFile>
+	<Texture> ice.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 100.0 </Scale>
+	<Position> -50.0 0.0 150.0 </Position>
+	<IsPlayer> True </IsPlayer>
+</Model>
+<Model>
+	<Type> Box </Type>
+	<PlyFile> Cube2.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> 0.0 1.0 200.0 </Position>
+</Model>
+<Model>
+	<Type> Box </Type>
+	<PlyFile> Cube2.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> 1.0 1.0 200.0 </Position>
+</Model>
+<Model>
+	<Type> Box </Type>
+	<PlyFile> Cube2.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> -1.0 1.0 200.0 </Position>
+</Model>
+<Model>
+	<Type> Box </Type>
+	<PlyFile> Cube2.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> -2.0 1.0 200.0 </Position>
+</Model>
+<Model>
+	<Type> Box </Type>
+	<PlyFile> Cube2.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> 0.0 2.0 200.0 </Position>
+</Model>
+<Model>
+	<Type> Box </Type>
+	<PlyFile> Cube2.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> 1.0 2.0 200.0 </Position>
+</Model>
+<Model>
+	<Type> Box </Type>
+	<PlyFile> Cube2.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> -1.0 2.0 200.0 </Position>
+</Model>
+<Model>
+	<Type> Box </Type>
+	<PlyFile> Cube2.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> -2.0 2.0 200.0 </Position>
+</Model>
+<CheckPoint>
+	<Position> 0.0 0.0 200.0 </Position>
+</CheckPoint>

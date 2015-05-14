@@ -1,0 +1,102 @@
+<Model> 
+	<Type> Skybox </Type>
+	<PlyFile> Isoshphere_xyz_nxyz.ply </PlyFile>
+	<SkyboxTexture>
+		<Name> Skybox </Name>
+		<Texture> BluePurpleSpaceBox_right1.bmp <Texture>
+		<Texture> BluePurpleSpaceBox_left2.bmp <Texture>
+		<Texture> BluePurpleSpaceBox_top3.bmp <Texture>
+		<Texture> BluePurpleSpaceBox_bottom4.bmp <Texture>
+		<Texture> BluePurpleSpaceBox_front5.bmp <Texture>
+		<Texture> BluePurpleSpaceBox_back6.bmp <Texture>
+	</SkyboxTexture> 
+	<IsSkybox> True </IsSkybox> 
+	<Position> 0 0 0 </Position>
+	<Colour> 0.75 0.5 0.3 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<Scale> 1000 </Scale>
+</Model> 
+<Model> 
+	<Type> City </Type>
+	<PlyFile> NubianComplex2.ply </PlyFile>
+	<Texture> windows_mtl1_diffcol.bmp </Texture>
+	<Position> 0 0 0 </Position>
+	<Colour> 0.75 0.5 0.3 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<IsEnviro>  True  </IsEnviro>
+</Model> 
+<Model> 
+	<Type> Sphere </Type>
+	<PlyFile> sphere_UV_xyz.ply </PlyFile>
+	<Texture> explosion.bmp </Texture>
+	<Position> 100 478 687 </Position>
+	<Colour> 0.75 0.5 0.3 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<Transparency> 0.9 </Transparency>
+	<IsLightBall>  True  </IsLightBall>
+	<Scale> 1 </Scale>
+</Model> 
+<Model> 
+	<Type> Viper </Type>
+	<PlyFile> ViperMKVII_FACING_FORWARD_xyz_nyxz_vertUV.ply </PlyFile>
+	<Texture> ViperMKVII.bmp </Texture>
+	<Position> 100 478 692 </Position>
+	<Colour> 1 1 1 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<IsPlayer>  True  </IsPlayer>
+	<Scale> 10 </Scale>
+</Model> 
+<Model> 
+	<Type> Fighter </Type>
+	<PlyFile> FV_X1_Fighter.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Position> 90 470 711 </Position>
+	<Colour> 1 1 1 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<Scale> 10 </Scale>
+</Model> 
+<Model> 
+	<Type> GHAANON </Type>
+	<PlyFile> GHAANON_R1.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Position> 111 478 671 </Position>
+	<Colour> 1 1 1 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<Scale> 10 </Scale>
+</Model> 
+<Model> 
+	<Type> Asteroid </Type>
+	<PlyFile> asteroid_sc0001.ply </PlyFile>
+	<Texture> BIG_rocher.bmp </Texture>
+	<Position> 154 478 697 </Position>
+	<Colour> 1 1 1 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<Scale> 20 </Scale>
+</Model> 
+<Model> 
+	<Type> FluidFlow </Type>
+	<PlyFile> FluidFlow.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Position> 100 462 761 </Position>
+	<Colour> 1 1 1 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<Scale> 30 </Scale>
+</Model> 
+<Model> 
+	<Type> Bunny </Type>
+	<PlyFile> bun_zipper_res4_xyz.ply </PlyFile>
+	<Texture> Brick_Small.bmp </Texture>
+	<Position> 100 478 687 </Position>
+	<Colour> 1 1 1 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<Scale> 1 </Scale>
+</Model> 
+<Model> 
+	<Type> Bunny </Type>
+	<PlyFile> bun_zipper_res4_xyz.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Position> 100 478 687 </Position>
+	<Colour> 1 1 1 </Colour>
+	<Rotation> 0 0 0 </Rotation>
+	<Scale> 1 </Scale>
+</Model> 

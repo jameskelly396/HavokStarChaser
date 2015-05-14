@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11D21AB7-BF25-428B-82E0-784DC7C2C4FD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OpenGLForTheWin</RootNamespace>
+    <ProjectName>GraPhysAniFinal</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\lib\GL\Win32;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\hk2013_1_0_r1\Source;C:\hk2013_1_0_r1\Demo;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\lib\GL\Win32;C:\Program Files %28x86%29\Windows Kits\8.0\Lib\win8\um\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\hk2013_1_0_r1\Source;C:\hk2013_1_0_r1\Demo;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;HK_CONFIG_SIMD=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OmitFramePointers>false</OmitFramePointers>
+      <MinimalRebuild>false</MinimalRebuild>
+      <AdditionalIncludeDirectories>C:\hk2013_1_0_r1\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;freeglut.lib;hkBase.lib;hkCompat.lib;hkGeometryUtilities.lib;hkInternal.lib;hkSceneData.lib;hkSerialize.lib;hkVisualize.lib;hkaInternal.lib;hkaAnimation.lib;hkaPhysics2012Bridge.lib;hkpConstraint.lib;hkpConstraintSolver.lib;hkpCollide.lib;hkpDynamics.lib;hkpInternal.lib;hkpUtilities.lib;hkpVehicle.lib;hkcdCollide.lib;hkcdInternal.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\hk2013_1_0_r1\Lib\win32_vs2012_win7\debug_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;HK_CONFIG_SIMD=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\hk2013_1_0_r1\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;freeglut.lib;hkBase.lib;hkCompat.lib;hkGeometryUtilities.lib;hkInternal.lib;hkSceneData.lib;hkSerialize.lib;hkVisualize.lib;hkaInternal.lib;hkaAnimation.lib;hkaPhysics2012Bridge.lib;hkpConstraint.lib;hkpConstraintSolver.lib;hkpCollide.lib;hkpDynamics.lib;hkpInternal.lib;hkpUtilities.lib;hkpVehicle.lib;hkcdCollide.lib;hkcdInternal.lib;XInput9_1_0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\hk2013_1_0_r1\Lib\win32_vs2012_win7\release_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CCamera_Quaternions_OLD.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp" />
+    <ClCompile Include="CCommonTypes\CHRTimer.cpp" />
+    <ClCompile Include="CCommonTypes\CQuaternion.cpp" />
+    <ClCompile Include="CCommonTypes\CVector3f.cpp" />
+    <ClCompile Include="CCommonTypes\MatrixMath.cpp" />
+    <ClCompile Include="CGameController\CGameControllerManager.cpp" />
+    <ClCompile Include="CGameController\CGameControllerManager_Imp.cpp" />
+    <ClCompile Include="CGameController\CXBoxController.cpp" />
+    <ClCompile Include="CGameObjects\CViperBrain.cpp" />
+    <ClCompile Include="CGameObjects\CGameObject.cpp" />
+    <ClCompile Include="CHavokPhysics\CHavokPhysics.cpp" />
+    <ClCompile Include="CHavokPhysics\CPhysicsManagerFactory.cpp" />
+    <ClCompile Include="cMeshGenerator_PCN.cpp" />
+    <ClCompile Include="CMessage.cpp" />
+    <ClCompile Include="CFactoryMediator.cpp" />
+    <ClCompile Include="CModelLoaderManager.cpp" />
+    <ClCompile Include="CMouseState.cpp" />
+    <ClCompile Include="CNameValuePair.cpp" />
+    <ClCompile Include="CParticleEmitter.cpp" />
+    <ClCompile Include="CPhysics\CPhysicalProp.cpp" />
+    <ClCompile Include="CPhysics\CPhysicsCalculatron.cpp" />
+    <ClCompile Include="CPhysics\Physics.cpp" />
+    <ClCompile Include="CPly\CPlyFile5nt.cpp" />
+    <ClCompile Include="CPly\CPlyFile5nt_experimental.cpp" />
+    <ClCompile Include="CRender\CGLShaderManager.cpp" />
+    <ClCompile Include="CRender\CGLShaderManager_SHADER_VARIABLES.cpp" />
+    <ClCompile Include="CRender\CLight.cpp" />
+    <ClCompile Include="CRender\CLightManager.cpp" />
+    <ClCompile Include="CRender\CMeshDesc.cpp" />
+    <ClCompile Include="CRender\ShaderTypes.cpp" />
+    <ClCompile Include="CTexture\C24BitBMPpixel.cpp" />
+    <ClCompile Include="CTexture\CTextureFromBMP.cpp" />
+    <ClCompile Include="CTexture\CTextureManager.cpp" />
+    <ClCompile Include="CTexture\lodepng.cpp" />
+    <ClCompile Include="CTriangle.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="glutClose_callback.cpp" />
+    <ClCompile Include="glutDisplay_callback.cpp" />
+    <ClCompile Include="glutIdle_callback.cpp" />
+    <ClCompile Include="glutKeyboardSpecial_callbacks.cpp" />
+    <ClCompile Include="glutReshape_callback.cpp" />
+    <ClCompile Include="glut_mouse_Callbacks.cpp" />
+    <ClCompile Include="ShaderUniformVariables.cpp" />
+    <ClCompile Include="OpenGL_Initialize.cpp" />
+    <ClCompile Include="printTheWhatsThisProgramAboutBlurb.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="triangleAABB.cpp" />
+    <ClCompile Include="Utils_NO_LONGER_NEEDED.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="VertexTypes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAABB.h" />
+    <ClInclude Include="CCamera_Quaternions_OLD.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CCamera.h" />
+    <ClInclude Include="CCommonTypes\CHRTimer.h" />
+    <ClInclude Include="CCommonTypes\CMathHelper.h" />
+    <ClInclude Include="CCommonTypes\CQuaternion.h" />
+    <ClInclude Include="CCommonTypes\CVector3f.h" />
+    <ClInclude Include="CCommonTypes\CVector4f.h" />
+    <ClInclude Include="CCommonTypes\MatrixMath.h" />
+    <ClInclude Include="CGameController\CGameControllerManager.h" />
+    <ClInclude Include="CGameController\CGameControllerManager_Imp.h" />
+    <ClInclude Include="CGameController\CXBoxController.h" />
+    <ClInclude Include="CGameController\IGameController.h" />
+    <ClInclude Include="CGameObjects\CViperBrain.h" />
+    <ClInclude Include="CGameObjects\CGameObject.h" />
+    <ClInclude Include="CGameObjects\IBrain.h" />
+    <ClInclude Include="CGameObjects\IGameObjectPhysics.h" />
+    <ClInclude Include="CGameObjects\IGameObjectRender.h" />
+    <ClInclude Include="CHavokPhysics\CHavokPhysics.h" />
+    <ClInclude Include="CHavokPhysics\CPhysicsManagerFactory.h" />
+    <ClInclude Include="CHavokPhysics\IPhysics.h" />
+    <ClInclude Include="cMeshGenerator_PCN.h" />
+    <ClInclude Include="CMessage.h" />
+    <ClInclude Include="CFactoryMediator.h" />
+    <ClInclude Include="CModelLoaderManager.h" />
+    <ClInclude Include="CMouseState.h" />
+    <ClInclude Include="CNameValuePair.h" />
+    <ClInclude Include="CParticleEmitter.h" />
+    <ClInclude Include="CPhysics\CPhysicalProp.h" />
+    <ClInclude Include="CPhysics\CPhysicsCalculatron.h" />
+    <ClInclude Include="CPhysics\Physics.h" />
+    <ClInclude Include="CPly\CPlyFile5nt.h" />
+    <ClInclude Include="CPly\CPlyInfo.h" />
+    <ClInclude Include="CRender\CGLShaderManager.h" />
+    <ClInclude Include="CRender\CLight.h" />
+    <ClInclude Include="CRender\CLightManager.h" />
+    <ClInclude Include="CRender\CMeshDesc.h" />
+    <ClInclude Include="CRender\IGLShaderManager.h" />
+    <ClInclude Include="CRender\ShaderTypes.h" />
+    <ClInclude Include="CTexture\C24BitBMPpixel.h" />
+    <ClInclude Include="CTexture\CTextureFromBMP.h" />
+    <ClInclude Include="CTexture\CTextureManager.h" />
+    <ClInclude Include="CTexture\lodepng.h" />
+    <ClInclude Include="CTriangle.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="PhysicsMailMan.h" />
+    <ClInclude Include="IFactory.h" />
+    <ClInclude Include="IMediator.h" />
+    <ClInclude Include="QnDPly.h" />
+    <ClInclude Include="ShaderUniformVariables.h" />
+    <ClInclude Include="Utils_NO_LONGER_NEEDED.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="whats_this.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\OpenGL.LightTexSkyUber.fragment_texture - Copy.glsl" />
+    <None Include="assets\shaders\OpenGL.LightTexSkyUber.fragment_texture.glsl" />
+    <None Include="assets\shaders\OpenGL.LightTexSkyUber.vertex.glsl" />
+    <None Include="assets\shaders\W12.Uber.fragment.glsl" />
+    <None Include="assets\shaders\W12.Uber.vertex.glsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
